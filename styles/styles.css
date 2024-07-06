@@ -4,8 +4,18 @@
   --gray: #678784;
   --max-width: 90%;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.section-heading {
+  font-family: "Boska", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.25rem;
+  line-height: normal;
+  text-transform: capitalize;
 }
