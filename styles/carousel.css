@@ -23,7 +23,7 @@
 .room-slide {
   flex: 1;
   overflow: hidden;
-  animation: slide 5s infinite;
+  animation: slide 9s infinite ease-in-out;
 }
 
 #rooms-carousel .room-slide:nth-child(1) {
@@ -115,16 +115,28 @@
 /* animation for sliding */
 @keyframes slide {
   0% {
+    order: 1;
+  }
+  12.5% {
+    order: 2;
+  }
+  25% {
     order: 2;
   }
   33.33% {
-    order: 3;
+    order: 2;
   }
   66.66% {
-    order: 1;
+    order: 3;
+  }
+  75% {
+    order: 3;
+  }
+  87.5% {
+    order: 3;
   }
   100% {
-    order: 2;
+    order: 1;
   }
 }
 

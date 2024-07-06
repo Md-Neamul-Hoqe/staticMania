@@ -10,7 +10,6 @@ function rotateOrder(direction) {
         } else if (direction === 'prev') {
             slide.style.order = (currentOrder - 2 + totalSlides) % totalSlides + 1;
         }
-        console.log(slide.style);
     }
 
 }
