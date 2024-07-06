@@ -1,0 +1,10 @@
+:root{
+    --green: #75FF69;
+    --teal: #1B3936;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

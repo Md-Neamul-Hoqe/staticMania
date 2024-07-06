@@ -1,0 +1,74 @@
+#hero-section-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+#hero-bg {
+  width: 100%;
+  min-height: 100%;
+  background-image: url("../assets/Line.png");
+  background-color: #1b3936;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center center;
+}
+
+#hero-bg .hero-center-bg {
+  position: absolute;
+  width: 33.33vw;
+  height: 33.33vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero-bg .hero-play {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(0, -50%);
+}
+
+#hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-title {
+  font-family: "Boska", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13rem;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title:nth-child(1),
+.hero-title:nth-child(3) {
+  color: white;
+}
+
+.hero-title span:nth-child(2) {
+  position: relative;
+  right: calc(-33.33%);
+  font-style: italic;
+  color: var(--green);
+}
+
+.hero-description {
+  line-height: normal;
+  color: white;
+  text-align: center;
+}
+
+.absolutely-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

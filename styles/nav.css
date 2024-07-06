@@ -1,0 +1,36 @@
+#top-nav-container nav {
+  height: 64px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+#top-nav-container nav .left a,
+#top-nav-container nav .center a,
+#top-nav-container nav .right a {
+  text-decoration: none;
+}
+
+#top-nav-container nav .left,
+#top-nav-container nav .right {
+  width: 25%;
+  display: flex;
+  gap: 1rem;
+}
+
+#top-nav-container nav .right {
+  justify-content: end;
+}
+
+#top-nav-container nav .center {
+  text-align: center;
+  width: 50%;
+}
+
+#top-nav-container nav .left a,
+#top-nav-container nav .right a {
+  color: white;
+  text-transform: capitalize;
+}

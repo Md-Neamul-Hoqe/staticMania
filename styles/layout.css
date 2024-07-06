@@ -1,0 +1,16 @@
+body {
+  background-color: #1b3936;
+}
+
+#top-nav-container {
+  width: 100vw;
+  position: sticky;
+  background-color: transparent;
+  z-index: 40px;
+  font-size: 1.125rem;
+  font-family: "Switzer Complete", sans-serif;
+}
+
+#main-content {
+  margin-top: -64px;
+}
