@@ -2,6 +2,7 @@
   --green: #75ff69;
   --teal: #1b3936;
   --gray: #678784;
+  --max-width: 90%;
 }
 * {
   margin: 0;

@@ -28,32 +28,16 @@ body {
 
 #info-section-container {
   height: 100vh;
-  background-color: white;
+  background-color: #f9f9f9;
 }
 
 #aboutus-section-container {
   position: relative;
-  /* background-color: white; */
   height: 230vh;
   z-index: -1;
-  /* background-image: linear-gradient(
-    to left bottom,
-    --var(--green),
-    --var(--green) 50%
-  );
-  background-image: -webkit-linear-gradient(
-    to left bottom,
-    --var(--green),
-    --var(--green) 50%
-  );
-  background-image: -o-linear-gradient(
-    to left bottom,
-    --var(--green),
-    --var(--green) 50%
-  );
-  background-image: -moz-linear-gradient(
-    to left bottom,
-    --var(--green),
-    --var(--green) 50%
-  ); */
+}
+
+#rooms-section-container {
+  background-color: #f9f9f9;
+  min-height: 100vh;
 }

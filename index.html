@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="/styles/nav.css">
     <link rel="stylesheet" href="/styles/info.css">
     <link rel="stylesheet" href="/styles/aboutus.css">
+    <link rel="stylesheet" href="/styles/carousel.css">
     <link rel="stylesheet" href="/styles/layout.css">
 </head>
 
@@ -46,7 +47,7 @@
         </nav>
     </header>
     <main id="main-content">
-        <section id="hero-section-container">
+        <!-- <section id="hero-section-container">
             <div id="hero-bg">
                 <img class="hero-play" src="/assets/hero-circle-play.png" alt="play">
                 <img class="hero-center-bg" src="/assets/hero-image.png" alt="hero-center-bg">
@@ -116,7 +117,74 @@
                 </p>
             </div>
         </section>
+
+        <section id="rooms-section-container">
+            <h2 class="rooms-section-heading">Our unique rooms within <br> the wilderness retreat</h2>
+            <div id="rooms-carousel">
+                <div class="room-slide">
+                    <div class="room-slide-item">
+                        <img src="/assets/room-1.png" alt="Majestic Mountain">
+                        <div class="room-slide-content">
+                            <div class="room-slide-text">
+                                <h3>Majestic Mountain</h3>
+                                <p>For the times when life is too much, quit everything and enjoy the woods</p>
+                            </div>
+                            <div class="room-slide-button">
+                                <button onclick="next()" title="View Details"><img src="/assets/arrow-right.png"
+                                        alt="View Details"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-slide active">
+                    <div class="room-slide-item">
+                        <img src="/assets/room-2.png" alt="Majestic Mountain">
+                        <div class="room-slide-content">
+                            <div class="room-slide-text">
+                                <h3>Cozy Cabin</h3>
+                                <p>For the times when life is too much, quit everything and enjoy the woods</p>
+                            </div>
+                            <div class="room-slide-button">
+                                <button onclick="next()" title="View Details"><img src="/assets/arrow-right.png"
+                                        alt="View Details"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-slide">
+                    <div class="room-slide-item">
+                        <img src="/assets/room-3.png" alt="Majestic Mountain">
+                        <div class="room-slide-content">
+                            <div class="room-slide-text">
+                                <h3>Majestic Mountain</h3>
+                                <p>For the times when life is too much, quit everything and enjoy the woods</p>
+                            </div>
+                            <div class="room-slide-button">
+                                <button onclick="next()" title="View Details"><img src="/assets/arrow-right.png"
+                                        alt="View Details"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="signup-section-container">
+            <div class="signup-section-outline">
+                <div class="signup-content">
+                    <h2>Sign up and <span>get 10%</span> off your stay</h2>
+                    <p>Not boring old news, just updates for our rentals.
+                        Take up on our offers.</p>
+                    <div class="email-input">
+                        <input type="email" placeholder="Email Address">
+                        <input type="submit" name="submit" value="Get 10% Off">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+
+<script src="/js/carousel.js"></script>
 
 </html>
