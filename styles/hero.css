@@ -7,31 +7,31 @@
   background-color: #1b3936;
   background-repeat: no-repeat;
   background-size: 75%;
-  background-position: center center;
+  background-position: center;
 }
 
 #hero-bg .hero-center-bg {
-  position: absolute;
   width: 33.33vw;
   height: 33.33vw;
   top: 50%;
   left: 50%;
+  position: absolute;
   transform: translate(-50%, -50%);
 }
 
 #hero-bg .hero-play {
-  position: absolute;
   width: 80px;
   height: 80px;
   top: 50vh;
   right: 7vw;
+  position: absolute;
   transform: translate(-50%, -50%);
 }
 
 #hero-content {
-  position: absolute;
   top: 50%;
   left: 50%;
+  position: absolute;
   transform: translate(-50%, -45%);
 }
 
@@ -42,9 +42,9 @@
   font-size: 14rem;
   line-height: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .hero-title span {
