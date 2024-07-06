@@ -1,0 +1,133 @@
+.testimonial-section-header {
+  display: flex;
+  align-items: end;
+}
+
+#testimonial-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem;
+  padding: 2rem 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.testimonial-slide {
+  max-width: 33.33%;
+}
+
+.testimonial-content {
+  width: 100%;
+  position: relative;
+}
+
+.testimonial-content p::before,
+.testimonial-content p::after {
+  content: '"';
+}
+
+.testimonial-image {
+  height: 75%;
+  width: 90%;
+  margin-left: auto;
+}
+
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial-text h3 {
+  font-weight: 400;
+  font-size: 1.375rem;
+}
+
+.testimonial-text p {
+  font-size: 1rem;
+}
+
+.testimonial-text {
+  position: absolute;
+  bottom: 0;
+  left: -4rem;
+  right: 4rem;
+  padding: 1rem;
+  max-height: 100px;
+  overflow-y: hidden;
+  font-family: "Switzer", sans-serif;
+  font-style: normal;
+  color: var(--teal);
+  background-color: white;
+}
+
+.testimonial-text .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  background-image: linear-gradient(
+    to top,
+    white 15%,
+    rgba(255, 255, 255, 0.6) 60%,
+    transparent
+  );
+  background-image: -moz-linear-gradient(
+    to top,
+    white 15%,
+    rgba(255, 255, 255, 0.6) 60%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    to top,
+    white 15%,
+    rgba(255, 255, 255, 0.6) 60%,
+    transparent
+  );
+  background-image: -webkit-linear-gradient(
+    to top,
+    white 15%,
+    rgba(255, 255, 255, 0.6) 60%,
+    transparent
+  );
+}
+
+#testimonial-container .testimonial-slide:nth-child(1) {
+  order: 1;
+}
+
+#testimonial-container .testimonial-slide:nth-child(2) {
+  order: 2;
+}
+
+#testimonial-container .testimonial-slide:nth-child(3) {
+  order: 3;
+}
+
+#testimonial-section-container footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#testimonial-section-container footer button:hover {
+  opacity: 0.8;
+}
+
+#testimonial-section-container footer button {
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 99%;
+}
+
+#testimonial-section-container footer button:first-child {
+  background-color: var(--teal);
+}
+
+#testimonial-section-container footer button:last-child {
+  background-color: var(--green);
+}

@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="/styles/aboutus.css">
     <link rel="stylesheet" href="/styles/carousel.css">
     <link rel="stylesheet" href="/styles/signup.css">
+    <link rel="stylesheet" href="/styles/testimonial.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="/styles/layout.css">
 </head>
 
@@ -184,9 +186,113 @@
             </div>
         </section>
 
+        <!-- TODO: transform to animated carousel slider -->
+        <section id="testimonial-section-container">
+            <header class="testimonial-section-header">
+                <h2 class="section-heading">Experience the Magic of The Wilderness Retreat</h2>
+                <p class="section-paragraph">Welcome to our cosy  cabin in the woods! Our rental home, nestled in the
+                    heart of the forest.</p>
+            </header>
+            <main id="testimonial-container">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="/assets/testimonial-3.png" alt="testimonial-image">
+                        </div>
+                        <article class="testimonial-text">
+                            <div class="status-icon"><i>✌️</i></div>
+                            <h3>Peaceful</h3>
+                            <p>We had such a great time at The Wilderness Retreat. The views were amazing.</p>
+                            <div class="overlay"></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="/assets/testimonial-2.png" alt="testimonial-image">
+                        </div>
+                        <article class="testimonial-text">
+                            <h3>John Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <div class="overlay"></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="/assets/testimonial-1.png" alt="testimonial-image">
+                        </div>
+                        <article class="testimonial-text">
+                            <h3>John Doe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <div class="overlay"></div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <button onclick="rotateOrder('prev')"><img src="/assets/left-arrow.svg" alt="left arrow"></button>
+                <button onclick="rotateOrder('next')"><img src="/assets/right-arrow.svg" alt="right arrow"></button>
+            </footer>
+        </section>
     </main>
+
+    <footer id="footer-section-container">
+        <section class="big-footer-section">
+            <aside class="footer-left">
+                <h2 class="section-heading">it's time to get to know each other!</h2>
+                <p class="section-paragraph">Grab a cup of coffee and...</p>
+                <button class="letsTalk">Let’s talk!</button>
+            </aside>
+            <aside class="footer-right">
+                <img src="/assets/info-left-image.png" alt="icon">
+            </aside>
+        </section>
+        <section class="quick-link-section">
+            <a href="#about" class="link">
+                <div class="link-text">
+                    <h3>About <img src="/assets/arrow-right-down-gray.png" alt="arrow right down"></h3>
+                    <p>use in a true way</p>
+                </div>
+                <div><img src="/assets/arrow-right-down-teal.png" alt="arrow down"></div>
+            </a>
+            <a href="#rooms" class="link">
+                <div class="link-text">
+                    <h3>Rooms <img src="/assets/arrow-right-down-gray.png" alt="arrow right down"></h3>
+                    <p>See our</p>
+                </div>
+                <div><img src="/assets/arrow-right-down-teal.png" alt="arrow down"></div>
+            </a>
+            <a href="#contact" class="link">
+                <div class="link-text">
+                    <h3>Contact <img src="/assets/arrow-right-down-gray.png" alt="arrow right down"></h3>
+                    <p>You can</p>
+                </div>
+                <div><img src="/assets/arrow-right-down-teal.png" alt="arrow down"></div>
+            </a>
+        </section>
+        <section class="foot-links">
+            <div>
+                <a href="#">Made by: Azwedo</a>
+                <a href="#">Made by: Azwedo</a>
+                <a href="#">Made by: Azwedo</a>
+                <a href="#">Made by: Azwedo</a>
+                <a href="#">Made by: Azwedo</a>
+                <a href="#">Made by: Azwedo</a>
+            </div>
+        </section>
+    </footer>
 </body>
 
 <script src="/js/carousel.js"></script>
+<script src="/js/testimonial-slider.js"></script>
 
 </html>

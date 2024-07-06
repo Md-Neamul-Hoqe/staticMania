@@ -1,0 +1,119 @@
+.big-footer-section {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 6rem;
+  padding: 5rem;
+}
+
+.footer-left {
+  color: var(--teal);
+  flex: 3;
+}
+
+.footer-left h2 {
+  font-family: "Boska", serif;
+  font-size: 4.25rem;
+  font-weight: normal;
+  font-style: normal;
+  color: var(--teal);
+}
+
+.footer-left p {
+  font-family: "Switzer", sans-serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 3;
+  color: var(--teal);
+}
+
+.footer-left .letsTalk {
+  margin-top: 4rem;
+  width: 200px;
+  font-family: "Switzer", sans-serif;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 4;
+  cursor: pointer;
+  border-radius: 50% 50% 51% 49% / 50% 46% 54% 50%;
+}
+.footer-left .letsTalk:hover {
+  background-color: var(--green);
+}
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right img {
+  width: auto;
+  height: auto;
+}
+
+/* Quick link section */
+.quick-link-section {
+  display: flex;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 50vh;
+  background-color: var(--teal);
+  color: white;
+  width: 33.33%;
+  text-decoration: none;
+}
+
+.link-text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.link-text h3 {
+  display: flex;
+  align-items: end;
+  font-family: "Boska", serif;
+  font-size: 4.25rem;
+  font-weight: 400;
+  color: white;
+}
+
+.link:hover {
+  position: relative;
+  background-color: var(--green);
+  color: var(--teal);
+}
+
+.link:hover div:last-child {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.link:hover .link-text h3 > img {
+  display: none;
+}
+
+.link:hover .link-text {
+  flex-direction: column;
+}
+
+/* footer links */
+.foot-links {
+  text-align: center;
+}
+.foot-links div a {
+  font-family: "Switzer", sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 3;
+  color: var(--teal);
+  margin-right: 2rem;
+}

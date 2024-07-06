@@ -13,9 +13,18 @@
 
 .section-heading {
   font-family: "Boska", serif;
+  flex: 3;
   font-style: normal;
   font-weight: normal;
   font-size: 4.25rem;
   line-height: normal;
   text-transform: capitalize;
+}
+
+.section-paragraph {
+  flex: 2;
+  font-family: "Switzer", sans-serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: normal;
 }
