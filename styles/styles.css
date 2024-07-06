@@ -1,10 +1,10 @@
-:root{
-    --green: #75FF69;
-    --teal: #1B3936;
+:root {
+  --green: #75ff69;
+  --teal: #1b3936;
+  --gray: #678784;
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-

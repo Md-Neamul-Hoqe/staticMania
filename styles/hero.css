@@ -1,8 +1,3 @@
-#hero-section-container {
-  height: 100vh;
-  width: 100vw;
-}
-
 #hero-bg {
   width: 100%;
   min-height: 100%;
@@ -38,7 +33,7 @@
   transform: translate(-50%, -50%);
 }
 .hero-title {
-  font-family: "Boska", sans-serif;
+  font-family: "Boska", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 13rem;
